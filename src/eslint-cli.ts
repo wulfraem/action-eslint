@@ -45,7 +45,7 @@ export async function eslint(filesList: string[]) {
       });
     }
   }
-
+  console.dir(annotations)
   return {
     conclusion: (errorCount > 0
       ? 'failure'
